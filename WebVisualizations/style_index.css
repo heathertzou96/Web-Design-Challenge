@@ -1,0 +1,36 @@
+body {
+    background: rgba(223, 226, 228, 0.808);
+    padding-top: 120px;
+    
+    
+}
+
+.navbar-brand{   
+    font-size: 25px; 
+}
+
+#summary {
+    background-color: white;
+    padding: 1em 0;
+    border: 10px solid white;
+
+    position: relative;
+    right: 45px;
+    
+}
+
+#temp {
+    float: left;
+    margin-right: 20px;
+}
+
+#visualization {
+    background-color: white;
+    padding: 1em 0;
+    border: 10px solid white;
+
+    position: relative;
+    left: 13px;
+    
+}
+
