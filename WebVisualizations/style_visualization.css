@@ -19,10 +19,6 @@ body {
     
 }
 
-#temp {
-    float: left;
-    margin-right: 20px;
-}
 
 #visualization {
     background-color: white;
@@ -32,13 +28,4 @@ body {
     position: relative;
     left: 13px;
     
-}
-
-.brightness {
-    background-color: darkcyan;
-    display: inline-block
-}
-
-.brightness img:hover {
-    opacity: .5;
 }

@@ -4,11 +4,11 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Latitude Analysis Dashboard</title>
+  <title>Temperature</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="style_index.css">
+  <link rel="stylesheet" href="style_visualization.css">
 
 </head>
 
@@ -51,12 +51,12 @@
 
         <div class = "row">
             <div id = "summary" class = "col-sm-6 col-md-8">
-                <h3 class="font-weight-bold">Summary: Latitude vs. X</h3>
+                <h3 class="font-weight-bold">Max Temperature</h3>
                 <hr>
-                <img id = "temp" src = "output_data/lat_maxtemp.png" alt="temperature" height = 120/> 
-                <p>The purpose of the WeatherPy project was to answer this simple question: “What is the weather like as we approach the equator?"<br/></p>
-                <p>By visualizing the weather of over 500 cities with varying distance from the equator through the OpenWeatherMap API, we looked into four variables, specifically, temperature, humidity, cloudiness, and windspeed, to see their relationship between latitude.<br/></p>
-                <p>This site showcases our findings and includes the data used in the visualizations.</p>
+                <div class = "text-center">
+                    <img src = "output_data/lat_maxtemp.png" alt="temperature" height = 300/></span>
+                </div>
+                <br><p>The scatter plot above showcases the relationship between latitude and temperature. As you can see from the graph, cities closer to the equator (0 degrees latitude) have higher temperatures than those away from the equator.<br/></p>
             </div>  
 
             <div id = "visualization" class = "col-sm-6 col-md-4">
@@ -64,7 +64,7 @@
                 <hr>
                 <div class="row">
                     <div class="column mx-auto d-block">
-                        <div class="brightness"><a href= "temperature.html" target="_blank"><img src = "output_data/lat_maxtemp.png" alt="temperature" height = 100/></a></div>
+                        <a href= "temperature.html" target="_blank"><img src = "output_data/lat_maxtemp.png" alt="temperature" height = 100/></a>
                         <a href= "humidity.html" target="_blank"><img src = "output_data/lat_humidity.png" alt="humidity" height = 100/></a>
                     </div>
             
