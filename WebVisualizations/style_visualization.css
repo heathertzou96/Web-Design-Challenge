@@ -1,8 +1,6 @@
 body {
     background: rgba(223, 226, 228, 0.808);
-    padding-top: 120px;
-    
-    
+    padding-top: 120px;  
 }
 
 .navbar-brand{   
@@ -11,12 +9,10 @@ body {
 
 #summary {
     position: relative;
-    right: 45px;
-    
+    right: 45px; 
 }
 
 #visualization {
     position: relative;
-    left: 13px; 
-    
+    left: 13px;    
 }
