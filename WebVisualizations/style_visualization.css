@@ -10,22 +10,13 @@ body {
 }
 
 #summary {
-    background-color: white;
-    padding: 1em 0;
-    border: 10px solid white;
-
     position: relative;
     right: 45px;
     
 }
 
-
 #visualization {
-    background-color: white;
-    padding: 1em 0;
-    border: 10px solid white;
-
     position: relative;
-    left: 13px;
+    left: 13px; 
     
 }
