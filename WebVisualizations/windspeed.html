@@ -16,11 +16,11 @@
     <div class = "container">
 
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand ml-5" href="index.html"><b>Latitude</b></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand ml-5" href="index.html"><b>Latitude</b></a>
-
+            
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
@@ -44,7 +44,7 @@
         </nav>
             
         <div class = "row">
-            <div id = "summary" class = "col-sm-12 col-lg-7 p-3 mb-2 bg-white text-dark">
+            <div class = "col-sm-12 col-lg-7 p-3 mb-2 bg-white text-dark">
                 <h3 class="font-weight-bold">Windspeed</h3>
                 <hr>
                 <div class = "text-center">
@@ -53,19 +53,13 @@
                 <br><p>The scatter plot above showcases the relationship between latitude and windspeed. We see that across latitude degrees, majority of the cities' wind speed ranges from 0 to 20 mph. The cities that exceed well over 20 mph are the ones located in the northern hemisphere (towards the North Pole).<br/></p>
             </div>  
 
-            <div id = "visualization" class = "col-sm-12 col-lg-4 offset-lg-1 p-3 mb-2 bg-white text-dark h-50 d-inline-block">
-                <h3 class="font-weight-bold">Visualizations</h3> 
+            <div class = "col-sm-12 col-md-12 col-lg-4 offset-lg-1 p-3 mb-2 bg-white text-dark h-25 d-inline-block text-center">
+                <h3 class="font-weight-bold text-left" id="visual">Visualizations</h3> 
                 <hr>
-                <div class="row">
-                    <div class="column mx-auto d-block">
-                        <a href= "temperature.html" target="_blank"><img src = "output_data/lat_maxtemp.png" alt="temperature" height = 100/></a>
-                        <a href= "humidity.html" target="_blank"><img src = "output_data/lat_humidity.png" alt="humidity" height = 100/></a>
-                    </div>
-            
-                    <div class="column mx-auto d-block">
-                        <a href= "cloudiness.html" target="_blank"><img src = "output_data/lat_cloudiness.png" alt="cloudiness" height = 100/></a>
-                        <a href= "windspeed.html" target="_blank"><img src = "output_data/lat_windspeed.png" alt="windspeed" height = 100/></a>
-                    </div>   
+                <div class="hover"><a href= "temperature.html" target="_blank"><img src = "output_data/lat_maxtemp.png" alt="temperature" height = 100/></a></div>
+                <div class="hover"><a href= "humidity.html" target="_blank"><img src = "output_data/lat_humidity.png" alt="humidity" height = 100/></a></div>
+                <div class="hover"><a href= "cloudiness.html" target="_blank"><img src = "output_data/lat_cloudiness.png" alt="cloudiness" height = 100/></a></div>
+                <div class="hover"><a href= "windspeed.html" target="_blank"><img src = "output_data/lat_windspeed.png" alt="windspeed" height = 100/></a></div>
             </div>
 
         </div>

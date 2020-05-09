@@ -5,8 +5,8 @@ body {
 
 .navbar-brand{   
     font-size: 25px; 
+    color: rgb(29, 81, 102) !important;
 }
-
 
 @media (max-width: 992px) {
     .bg-light {
@@ -14,24 +14,33 @@ body {
     }
     .navbar-brand {
         color: white !important;    
-    }  
-   
+    }
+    .custom-toggler.navbar-toggler {
+        border-color: white !important;
+    }
+    .nav-link {
+        color: white !important
+    }
 }
 
+h3 {
+    color: rgb(29, 81, 102) !important;
+}
 
+h5 {
+    color: rgb(29, 81, 102);
+}
 
 #temp {
     float: left;
     margin-right: 10px;
 }
 
-
-
-.brightness {
+.hover {
     background-color: rgba(33, 107, 136, 0.418);
     display: inline-block;
 }
 
-.brightness img:hover {
+.hover img:hover {
     opacity: .5;
 }

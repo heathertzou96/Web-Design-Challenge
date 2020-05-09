@@ -16,10 +16,10 @@
     <div class = "container">
 
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand ml-5" href="index.html"><b>Latitude</b></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand ml-5" href="index.html"><b>Latitude</b></a>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
@@ -43,19 +43,23 @@
             </div>   
         </nav>
             
-        <div class = "p-3 mb-2 bg-white text-dark">
+        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3 mb-2 bg-white text-dark">
             <h3 class="font-weight-bold">Comparison: Latitude vs. X</h3> 
             <hr>
             <p>Click any plot to get an in-depth analysis.</p><br>
             <div class="row">
                 <div class="column mx-auto d-block">
-                    <a href= "temperature.html" target="_blank"><img src = "output_data/lat_maxtemp.png" alt="temperature" height = 300/></a>
-                    <a href= "humidity.html" target="_blank"><img src = "output_data/lat_humidity.png" alt="humidity" height = 300/></a>
+                    <h5>vs. Max Temperature</h5>
+                    <div class="hover"><a href= "temperature.html" target="_blank"><img src = "output_data/lat_maxtemp.png" alt="temperature" height = 300/></a></div><br>
+                    <h5>vs. Humidity</h5>
+                    <div class="hover"><a href= "humidity.html" target="_blank"><img src = "output_data/lat_humidity.png" alt="humidity" height = 300/></a></div><br>
                 </div>
         
                 <div class="column mx-auto d-block">
-                    <a href= "cloudiness.html" target="_blank"><img src = "output_data/lat_cloudiness.png" alt="cloudiness" height = 300/></a>
-                    <a href= "windspeed.html" target="_blank"><img src = "output_data/lat_windspeed.png" alt="windspeed" height = 300/></a>
+                    <h5>vs. Cloudiness</h5>
+                    <div class="hover"><a href= "cloudiness.html" target="_blank"><img src = "output_data/lat_cloudiness.png" alt="cloudiness" height = 300/></a></div><br>
+                    <h5>vs. Windspeed</h5>
+                    <div class="hover"><a href= "windspeed.html" target="_blank"><img src = "output_data/lat_windspeed.png" alt="windspeed" height = 300/></a></div><br>
                 </div>   
         </div>
 
