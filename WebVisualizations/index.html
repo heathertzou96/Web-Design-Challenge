@@ -15,42 +15,36 @@
 <body>
     <div class = "container">
 
-        <div class = "row">
-            <div class = "col">
-            <!--<div class = "col-md-12">-->
-                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand ml-5" href="index.html"><b>Latitude</b></a>
-
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Plots
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a class="dropdown-item" href="temperature.html">Max Temperature</a>
-                                  <a class="dropdown-item" href="humidity.html">Humidity</a>
-                                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                                  <a class="dropdown-item" href="windspeed.html">Windspeed</a>
-                                </div>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="comparison.html">Comparison</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="data.html">Data</a>
-                            </li>
-                        </ul>   
-                    </div>   
-                </nav>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand ml-5" href="index.html"><b>Latitude</b></a>
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+                        </div>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>   
             </div>   
-            <!--</div>-->
-        </div>
-
+        </nav>
+           
         <div class = "row">
-            <div id = "summary" class = "col-sm-6 col-md-8 p-3 mb-2 bg-white text-dark">
+            <div id = "summary" class = "col-sm-12 col-lg-7 p-3 mb-2 bg-white text-dark"> 
                 <h3 class="font-weight-bold">Summary: Latitude vs. X</h3>
                 <hr>
                 <img id = "temp" src = "output_data/lat_maxtemp.png" alt="temperature" height = 120/> 
@@ -59,7 +53,8 @@
                 <p>This site showcases our findings and includes the data used in the visualizations.</p>
             </div>  
 
-            <div id = "visualization" class = "col-sm-6 col-md-4 p-3 mb-2 bg-white text-dark">
+
+            <div id = "visualization" class = "col-sm-12 col-lg-4 offset-lg-1 p-3 mb-2 bg-white text-dark h-25 d-inline-block">
                 <h3 class="font-weight-bold">Visualizations</h3> 
                 <hr>
                 <div class="row">
